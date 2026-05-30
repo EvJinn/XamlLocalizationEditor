@@ -1,0 +1,17 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Geometry x:Key="delete_svgrepo_comGeometry">F1 M1024,1024z M0,0z M160,256L96,256A32,32,0,0,1,96,192L352,192 352,95.936A32,32,0,0,1,384,63.936L640,63.936A32,32,0,0,1,672,95.936L672,192 928,192A32,32,0,1,1,928,256L864,256 864,928A32,32,0,0,1,832,960L192,960A32,32,0,0,1,160,928L160,256z M608,192L608,128 416,128 416,192 608,192z M224,896L800,896 800,256 224,256 224,896z M416,768A32,32,0,0,1,384,736L384,416A32,32,0,0,1,448,416L448,736A32,32,0,0,1,416,768z M608,768A32,32,0,0,1,576,736L576,416A32,32,0,0,1,640,416L640,736A32,32,0,0,1,608,768z</Geometry>
+  <DrawingGroup x:Key="delete_svgrepo_comDrawingGroup" ClipGeometry="M0,0 V1024 H1024 V0 H0 Z">
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource delete_svgrepo_comGeometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="delete_svgrepo_comDrawingImage" Drawing="{StaticResource delete_svgrepo_comDrawingGroup}" />
+  <Geometry x:Key="save_svgrepo_comGeometry">F0 M24,24z M0,0z M18.1716,1C18.702,1,19.2107,1.21071,19.5858,1.58579L22.4142,4.41421C22.7893,4.78929,23,5.29799,23,5.82843L23,20C23,21.6569,21.6569,23,20,23L4,23C2.34315,23,1,21.6569,1,20L1,4C1,2.34315,2.34315,1,4,1L18.1716,1z M4,3C3.44772,3,3,3.44772,3,4L3,20C3,20.5523,3.44772,21,4,21L5,21 5,15C5,13.3431,6.34315,12,8,12L16,12C17.6569,12,19,13.3431,19,15L19,21 20,21C20.5523,21,21,20.5523,21,20L21,6.82843C21,6.29799,20.7893,5.78929,20.4142,5.41421L18.5858,3.58579C18.2107,3.21071,17.702,3,17.1716,3L17,3 17,5C17,6.65685,15.6569,8,14,8L10,8C8.34315,8,7,6.65685,7,5L7,3 4,3z M17,21L17,15C17,14.4477,16.5523,14,16,14L8,14C7.44772,14,7,14.4477,7,15L7,21 17,21z M9,3L15,3 15,5C15,5.55228,14.5523,6,14,6L10,6C9.44772,6,9,5.55228,9,5L9,3z</Geometry>
+  <DrawingGroup x:Key="save_svgrepo_comDrawingGroup" ClipGeometry="M0,0 V24 H24 V0 H0 Z">
+    <GeometryDrawing Brush="#FF0F0F0F" Geometry="{StaticResource save_svgrepo_comGeometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="save_svgrepo_comDrawingImage" Drawing="{StaticResource save_svgrepo_comDrawingGroup}" />
+  <Geometry x:Key="plus_svgrepo_comGeometry">F1 M16,16z M0,0z M10,1L6,1 6,6 1,6 1,10 6,10 6,15 10,15 10,10 15,10 15,6 10,6 10,1z</Geometry>
+  <DrawingGroup x:Key="plus_svgrepo_comDrawingGroup" ClipGeometry="M0,0 V16 H16 V0 H0 Z">
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource plus_svgrepo_comGeometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="plus_svgrepo_comDrawingImage" Drawing="{StaticResource plus_svgrepo_comDrawingGroup}" />
+</ResourceDictionary>

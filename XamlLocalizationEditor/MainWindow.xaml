@@ -1,0 +1,15 @@
+﻿<Window x:Class="XamlLocalizationEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XamlLocalizationEditor"
+        xmlns:vm="clr-namespace:XamlLocalizationEditor.ViewModels"
+        mc:Ignorable="d"
+        Title="XAML Localization Editor" Height="800" Width="1200"
+        d:DataContext="{x:Type vm:MainViewModel}">
+    <DockPanel Background="LightGray">
+        <ContentControl Height="Auto" Content="{Binding MenuVM}" DockPanel.Dock="Top"/>
+        <ContentControl Height="Auto" Content="{Binding EditorVM}" DockPanel.Dock="Bottom"/>
+    </DockPanel>
+</Window>
